@@ -35,4 +35,4 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
     $response["error_msg"] = "Required parameters email or password is missing!";
     echo json_encode($response);
 }
-?>
+?> 
